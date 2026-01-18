@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/remote-support-dashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/remote-support-dashboard/static/js/main.0adcc322.js",
+    "static/js/453.5e9283b3.chunk.js": "/remote-support-dashboard/static/js/453.5e9283b3.chunk.js",
+    "index.html": "/remote-support-dashboard/index.html",
+    "main.e6c13ad2.css.map": "/remote-support-dashboard/static/css/main.e6c13ad2.css.map",
+    "main.0adcc322.js.map": "/remote-support-dashboard/static/js/main.0adcc322.js.map",
+    "453.5e9283b3.chunk.js.map": "/remote-support-dashboard/static/js/453.5e9283b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0adcc322.js"
+  ]
+}
