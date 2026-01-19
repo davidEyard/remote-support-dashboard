@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { initialTickets } from "../data/tickets";
 import { kbArticles } from "../data/kb";
-
+import "./Dashboard.css";
 import Navbar from "../components/Navbar";
 import TicketList from "../components/TicketList";
 import TicketDetails from "../components/TicketDetails";
@@ -163,14 +163,7 @@ export default function Dashboard() {
           Track, filter, and resolve support tickets in one place.
         </div>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1.2fr 1fr",
-            gap: 16,
-            alignItems: "start",
-          }}
-        >
+        <div className="dashboardGrid">
           <TicketList
             tickets={filteredTickets}
             selectedTicketId={selectedTicketId}
